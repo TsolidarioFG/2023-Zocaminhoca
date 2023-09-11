@@ -1,0 +1,10 @@
+.selectClientButton {
+    background-color: white;
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.selectClientButton:hover {
+    box-shadow: 0 0 8px rgb(34, 161, 34);
+}

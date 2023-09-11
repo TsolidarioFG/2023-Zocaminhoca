@@ -1,0 +1,57 @@
+.checkedTransferRow {
+    background-color: rgb(132, 238, 203);
+}
+
+.notCheckedTransferRow {
+    background-color: rgb(235, 147, 147);
+}
+
+.checkIcon {
+    color: rgb(117, 187, 12);
+}
+
+.crossIcon {
+    color: red;
+}
+
+.clickableTableHeaderCell {
+    text-align: center;
+}
+
+.clickableTableHeaderCell:hover {
+    cursor: pointer;
+}
+
+.orderIcon {
+    position: relative;
+    top:50%;
+    transform: translateY(25%);
+    margin-left: 5px;
+}
+
+.saveButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.saveButton {
+    color: white;
+    margin: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.saveButton:hover {
+    box-shadow: 0 0 8px rgb(34, 161, 34);
+}
+
+.filenameInput {
+    padding: 10px;
+    min-width: 300px;
+    margin-right: 5px;
+}

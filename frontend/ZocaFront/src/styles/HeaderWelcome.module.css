@@ -1,0 +1,20 @@
+.welcome {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.welcomeContainer {
+    border: rgb(94, 91, 91) solid;
+    border-radius: 10px;
+}
+
+.welcomeContainer > * {
+    margin-top: 15px;
+}
+
+.welcomeContainer > *:last-child {
+    margin-bottom: 15px;
+}

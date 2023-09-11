@@ -1,0 +1,67 @@
+.table {
+    min-width: 100%;
+}
+
+.table th {
+    padding: 10px ;
+    background-color: rgb(135, 179, 135);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.table td {
+    padding: 5px;
+    text-align: center;
+}
+
+.tableContainer {
+    margin: 10px;
+}
+
+.selectableRow:hover{
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+}
+
+.selectedRow{
+    background-color: rgb(177, 177, 177);
+}
+
+.tablesContainerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.masterDetailTableContainers {
+    border: rgb(94, 91, 91) solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2px;
+}
+
+.tableTitle {
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.pagination {
+    background-color: rgb(135, 179, 135);
+    padding: 5px ;
+    border-radius: 5px ;
+}
+
+.pagination > * {
+    max-height: 30px;
+    min-height: 0px;
+}
+
+.tableInput {
+
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

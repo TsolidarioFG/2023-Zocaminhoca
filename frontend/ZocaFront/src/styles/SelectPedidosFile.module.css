@@ -1,0 +1,43 @@
+.fileSelectorContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    height: 30%;
+    margin: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:space-evenly;
+}
+
+.fileSelected {
+    font-size: large;
+    padding: 5px 60px;
+    background-color: azure;
+    border-radius: 5px;
+    color: black;
+}
+
+.selectFileButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.confirmFileButton {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 6px 12px;
+    font-size:medium;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+.confirmFileButton:hover {
+    box-shadow: 0 0 5px rgb(72, 172, 117);
+}

@@ -1,0 +1,65 @@
+.viewSelectorContainer{
+    display: flex;
+    border: solid rgb(94, 91, 91) ;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.viewSelectionButton {
+    color: white;
+    margin: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.viewSelectionButton:hover {
+    box-shadow: 0 0 8px rgb(34, 161, 34);
+}
+
+.viewSelectionButtonSelected {
+    background-color: rgb(0, 133, 99);
+}
+.addButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.addDistributorButton {
+    color: white;
+    margin: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.addDistributorButton:hover {
+    box-shadow: 0 0 8px rgb(34, 161, 34);
+}
+
+.saveButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.saveButton{
+    color: white;
+    margin: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.saveButton:hover {
+    box-shadow: 0 0 8px rgb(34, 161, 34);
+}
